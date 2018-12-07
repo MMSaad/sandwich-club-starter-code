@@ -1,8 +1,9 @@
 package com.udacity.sandwichclub.model;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Sandwich {
+public class Sandwich implements Serializable {
 
     private String mainName;
     private List<String> alsoKnownAs = null;
